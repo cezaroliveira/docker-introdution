@@ -43,7 +43,7 @@ docker ps
 docker exec -i mysql-container mysql -uroot -proot < api/db/script.sql
 ```
 
-## Executa um 
+## Executa um terminal bash
 ```bash
 # -it => além de interativo, será um terminal
 docker exec -it mysql-container /bin/bash
