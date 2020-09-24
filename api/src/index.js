@@ -3,7 +3,9 @@ const express = require('express');
 
 const connection = mysql.createConnection({
   // mysql-container IP
-  host: '172.17.0.2',
+  // host: '172.17.0.2',
+  // mysql-container link specified in 'docker run'
+  host: 'mysql-container',
   user: 'root',
   password: 'root',
   database: 'dockerintrodutiondb'
