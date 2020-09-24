@@ -1,0 +1,7 @@
+FROM node:14-slim
+
+# Define o diretório de trabalho no container node
+WORKDIR /home/node/app
+
+# Executa o comando para iniciar o node no WORKDIR
+CMD npm start

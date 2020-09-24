@@ -1,2 +1,5 @@
 # Ignore database directory
 api/db/data
+
+# Ignore node_modules directory
+*node_modules*

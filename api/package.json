@@ -1,0 +1,30 @@
+{
+  "name": "docker-introdution",
+  "version": "1.0.0",
+  "description": "Testing multiple containers with docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cezaroliveira/docker-introdution.git"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "mysql"
+  ],
+  "author": "Cezar Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cezaroliveira/docker-introdution/issues"
+  },
+  "homepage": "https://github.com/cezaroliveira/docker-introdution#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  }
+}
