@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS
-    dockerintrodution;
+    dockerintrodutiondb;
 
-USE dockerintrodution;
+USE dockerintrodutiondb;
 
 CREATE TABLE IF NOT EXISTS categoria (
 	codigo BIGINT PRIMARY KEY AUTO_INCREMENT,

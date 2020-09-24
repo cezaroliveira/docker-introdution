@@ -5,4 +5,4 @@ FROM mysql
 ENV MYSQL_ROOT_PASSWORD=root
 
 # Passando a base de dados
-ENV MYSQL_DATABASE=docker-introdution-db
+ENV MYSQL_DATABASE=dockerintrodutiondb
